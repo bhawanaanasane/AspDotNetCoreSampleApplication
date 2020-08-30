@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AspDotNetCoreSampleApplication/v16
+/.vs/PracticeApplication/v16
+/.vs
+/PracticeApplication/bin/Debug/netcoreapp3.1
+/PracticeApplication/obj
+/PracticeApplication/Properties
+/PracticeApplication/appsettings.Development.json
+/PracticeApplication/libman.json
+/PracticeApplication/PracticeApplication.csproj.user

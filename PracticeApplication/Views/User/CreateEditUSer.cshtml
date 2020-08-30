@@ -1,0 +1,31 @@
+﻿@model PracticeApplication.Models.CoreTable.UserTable
+@{
+    ViewData["Title"] = "CreateEditUSer";
+}
+    <form asp-controller="User" asp-action="CreateEditUSer" method="post">
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-header">User Data</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="row">
+                                <input hidden asp-for="Id" />
+                                <label>First Name</label>
+                                <input class="form-control" asp-for="FirstName" placeholder="Enter First Name" />
+                            </div>
+                            <div class="row">
+                                <label>Last Name</label>
+                                <input class="form-control" asp-for="LastName" placeholder="Enter Last Name" />
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Save User</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
